@@ -58,7 +58,7 @@ if [ -d $JAVAFOLDER ] ; then
   if [ "$FORCE" == "1" ]; then
     rm -rf /usr/lib/jvm/${JAVAFOLDER}
   fi
-  mv $JAVAFOLDER /usr/lib/jvm/
+  mv -i $JAVAFOLDER/ /usr/lib/jvm/
   update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/${JAVAFOLDER}/bin/java" 1
   update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/${JAVAFOLDER}/bin/javac" 1
   update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/${JAVAFOLDER}/bin/javaws" 1
