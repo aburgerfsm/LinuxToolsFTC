@@ -109,5 +109,5 @@ Name=Android Studio
 Exec=/opt/android-studio/bin/studio.sh
 Type=Application
 Icon=/opt/android-studio/bin/studio.png
-Categories=Programming,FIRST
+Categories=Development,FIRST
 EOF
