@@ -33,6 +33,7 @@ apt-get update
 apt-get install -y sudo git git-flow wget curl  \
 firefox-esr \
 vim \
+meld \
 software-properties-common \
 firmware-iwlwifi
 
