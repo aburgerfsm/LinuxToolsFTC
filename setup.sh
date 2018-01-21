@@ -101,7 +101,7 @@ mkdir -p /opt/first-helpers/bin
 cp first-profile.sh /opt/first-helpers/bin/
 
 
-cat << EOF > /usr/share/applications/androidi.desktop
+cat << EOF > /usr/share/applications/android.desktop
 [Desktop Entry]
 Comment=Android Studio
 Terminal=false
@@ -109,5 +109,4 @@ Name=Android Studio
 Exec=/opt/android-studio/bin/studio.sh
 Type=Application
 Icon=/opt/android-studio/bin/studio.png
-Categories=Development,FIRST
 EOF
