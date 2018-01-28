@@ -35,6 +35,7 @@ firefox-esr \
 vim \
 meld \
 software-properties-common \
+firmware-b43-installer \
 firmware-iwlwifi
 
 #For FIRST FTC
