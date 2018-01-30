@@ -38,6 +38,12 @@ software-properties-common \
 firmware-b43-installer \
 firmware-iwlwifi
 
+grep firstfamily /etc/passwd
+if [ "$?" != "0" ] ; then
+  echo "Adding user"
+  useradd -G cdrom,floppy,audio,dip,video,plugdev,netdev,bluetooth,lpadmin,scanner -m -s /bin/bash firstfamily
+fi
+
 #For FIRST FTC
 JAVAMAJOR="8"
 JAVAMINOR="161"
